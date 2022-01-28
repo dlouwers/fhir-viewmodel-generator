@@ -1,6 +1,6 @@
 ﻿using FhirViewModelGenerator.Mapper.Attributes;
 using FhirViewModelGenerator.Mapper.Primitives;
-using System.Net.Mail;
+using Attachment = FhirViewModelGenerator.Mapper.Primitives.Attachment;
 
 namespace FhirViewModelGenerator.Maps
 {

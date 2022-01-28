@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FFhirViewModelGenerator.Mapper.Primitives
+namespace FhirViewModelGenerator.Mapper.Primitives
 {
     /// <summary>
     /// https://simplifier.net/packages/hl7.fhir.r3.core/3.0.2/files/62003
     /// </summary>
-    public record Attachment
+    public class Attachment
     {
         public string ContentType { get; init; }
         public string Language { get; init; }
